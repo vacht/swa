@@ -25,3 +25,9 @@ Aplicación web para gestión de sala de restaurante (QR, comandas, inventario, 
    uvicorn app.main:app --reload
    ```
 4. Comprobar: http://localhost:8000/api/health y http://localhost:8000/docs
+
+## Trabajo en equipo
+- Guía de ramas, commits y Pull Requests: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Lista de tareas y reparto: [docs/backlog.md](docs/backlog.md)
+- Decisiones técnicas: [docs/decisiones.md](docs/decisiones.md)
+- Tests: `cd backend && pip install -r requirements-dev.txt && pytest`
